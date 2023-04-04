@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ *
+ * Created By : Sandy Developer
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="SD_AttributeExport::view" title="Product Attribute Value Export" module="SD_AttributeExport" sortOrder="10" resource="SD_AttributeExport::view"/>
+        <add id="SD_AttributeExport::form" title="Product Attribute Select Form" module="SD_AttributeExport" sortOrder="9" parent="SD_AttributeExport::view" action="exportattribute/Form/Index" resource="SD_AttributeExport::view"/>
+    </menu>
+</config>
