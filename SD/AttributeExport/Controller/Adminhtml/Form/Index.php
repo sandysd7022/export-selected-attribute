@@ -33,11 +33,11 @@ class Index extends Action
      */
     public function execute()
     {
-
         $resultPage = $this->resultPageFactory->create();
         $resultPage->setActiveMenu('SD_AttributeExport::form');
         $resultPage->addBreadcrumb(__('Form'), __('Select Attributes'));
         $resultPage->getConfig()->getTitle()->prepend(__('Select Attributes'));
         return $resultPage;
     }
+
 }
