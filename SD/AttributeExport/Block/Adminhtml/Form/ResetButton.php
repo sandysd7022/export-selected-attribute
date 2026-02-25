@@ -1,6 +1,5 @@
 <?php
 namespace SD\AttributeExport\Block\Adminhtml\Form;
-
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 use Magento\Customer\Block\Adminhtml\Edit\GenericButton;
 
@@ -16,3 +15,4 @@ class ResetButton extends GenericButton implements ButtonProviderInterface
         ];
     }
 }
+
